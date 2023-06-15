@@ -1,5 +1,5 @@
 /***** Header *****/
-$header-height: 71px;
+$header-height: 80px;
 
 .header {
   @include max-width-container;
@@ -8,10 +8,11 @@ $header-height: 71px;
   display: flex;
   height: $header-height;
   justify-content: space-between;
+  background: #121212;
 }
 
 .logo img {
-  max-height: 37px;
+  max-height: 48px;
   vertical-align: middle;
 }
 

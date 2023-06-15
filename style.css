@@ -292,11 +292,11 @@ textarea:focus {
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 5%;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1920px) {
   .container {
     padding: 0;
     width: 90%;
@@ -315,11 +315,11 @@ ul {
 }
 
 .error-page {
-  max-width: 1160px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 5%;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1920px) {
   .error-page {
     padding: 0;
     width: 90%;
@@ -623,16 +623,17 @@ ul {
 
 /***** Header *****/
 .header {
-  max-width: 1160px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 5%;
   position: relative;
   align-items: center;
   display: flex;
-  height: 71px;
+  height: 80px;
   justify-content: space-between;
+  background: #121212;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1920px) {
   .header {
     padding: 0;
     width: 90%;
@@ -640,7 +641,7 @@ ul {
 }
 
 .logo img {
-  max-height: 37px;
+  max-height: 48px;
   vertical-align: middle;
 }
 
@@ -673,7 +674,7 @@ ul {
   border: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 71px;
+  top: 80px;
   z-index: 1;
 }
 .user-nav[aria-expanded=true] > a {
@@ -763,7 +764,7 @@ ul {
   border-bottom: solid 1px #ddd;
   right: 0;
   left: 0;
-  top: 71px;
+  top: 80px;
   z-index: 2;
 }
 .nav-wrapper-mobile .menu-list-mobile[aria-expanded=false] {
@@ -952,13 +953,13 @@ ul {
   color: lighten($text_color, 20%);
 }
 .footer-inner {
-  max-width: 1160px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
 }
-@media (min-width: 1160px) {
+@media (min-width: 1920px) {
   .footer-inner {
     padding: 0;
     width: 90%;
