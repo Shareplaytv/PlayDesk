@@ -13,13 +13,13 @@
   <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav">
       <ul class="user-nav-list">
-        <li>{{link 'community'}}</li>
-        <li>{{link 'new_request' class='submit-a-request'}}</li>
+          <li>{{#link 'new_request' class='submit-a-request'}}Create a Ticket{{/link}}</li>
+          <li>{{link 'community'}}</li>
         {{#unless signed_in}}
           <li>
             {{#link "sign_in" class="sign-in"}}
               {{t 'sign_in'}}
-            {{/link}}
+            {{/link}}x
           </li>
         {{/unless}}
       </ul>
