@@ -52,7 +52,11 @@ $header-height: 80px;
     > .user-nav-list {
       li {
         display: block;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 700;
         font-size: 20px;
+        line-height: 24px;
       }
 
       a {

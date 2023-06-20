@@ -683,7 +683,11 @@ ul {
 }
 .user-nav[aria-expanded=true] > .user-nav-list li {
   display: block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
+  line-height: 24px;
 }
 .user-nav[aria-expanded=true] > .user-nav-list a {
   display: block;
