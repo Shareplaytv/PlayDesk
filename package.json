@@ -12,6 +12,7 @@
     "zcli": "zcli"
   },
   "dependencies": {
+    "gulp": "^4.0.2",
     "node-fetch": "2.6.9"
   },
   "devDependencies": {
