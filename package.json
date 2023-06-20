@@ -1,7 +1,7 @@
 {
-  "name": "copenhagen_theme",
-  "version": "1.0.0",
-  "repository": "git@github.com:zendesk/copenhagen_theme.git",
+  "name": "shareplay_theme",
+  "version": "4.0.0",
+  "repository": "git@github.com:Shareplaytv/PlayDesk.git",
   "scripts": {
     "start": "concurrently -k -r 'rollup -c -w' 'wait-on script.js style.css && zcli themes:preview'",
     "build": "rollup -c",
